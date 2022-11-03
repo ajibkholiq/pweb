@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style2.css" />
+    <script src="script2.js"></script>
+    <title>kalkulator bangun datar</title>
+  </head>
+  <body>
+    <div class="kalkulator">
+        <h1>kalkulator bangun </h1>
+      <form action="" name="form">
+        <select class="bangun" name="bangun" id="bangun" onchange="init()">
+            <option value="luasbalok">luas balok</option>
+            <option value="luaspersegi">luas persegi panjang</option>
+            <option value="luassg">luas segitiga </option>
+            <option value="volumeps">volume prisma segitiga </option>
+            <option value="volumel">volume limas</option>
+            <option value="volumekbs">volume kubus</option>
+        </select>
+        <br> <br>
+        <input class="angka" type="hidden" name="angka1" placeholder="angka pertama"/>
+        <input class="angka" type="hidden" name="angka2"  placeholder="OP"/>
+        <input class="angka" type="hidden" name="angka3" placeholder="angka kedua" />
+        <br><br>
+        <input  class ="button" type="hidden" name="submit" value="=" onclick="proses();" />
+        <br>
+        <input class="total" type="hidden" name="total" placeholder="total" /></form>
+        <br><br>
+        <center><a href="kalkulator.html">kalkulator</a>
+        </center>
+    </div>
+    
+  </body>
+</html>

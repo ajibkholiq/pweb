@@ -1,0 +1,97 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+.kalkulator {
+  margin: 100px auto;
+  background: black;
+  height: auto;
+  width: 800px;
+  border-radius: 20px;
+  padding-bottom: 50px;
+}
+h1 {
+  color: aliceblue;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 0px;
+  text-transform: uppercase;
+}
+form {
+  padding-top: 0px;
+  margin: auto;
+  width: 75%;
+  text-align: center;
+}
+form .angka {
+  width: 150px;
+  height: 30px;
+  text-align: center;
+  margin: 0;
+}
+form .button {
+  width: 320px;
+  height: 30px;
+  text-align: center;
+}
+form .total {
+  width: 310px;
+  height: 30px;
+  text-align: center;
+}
+form .bangun{
+  width: 310px;
+  height: 30px;
+  text-align: center;
+}
+.kalkulator p {
+  margin-top: 40px;
+  text-align: center;
+  color: aliceblue;
+}
+@media only screen and ( max-width: 800px) {
+  .kalkulator {
+    width: 100%;
+    height: 300px;
+  }
+  form {
+    text-align: center;
+  }
+  form .button {
+    width: 300px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .kalkulator {
+    width: 100%;
+    height: 430px;
+  }
+  form {
+    text-align: center;
+  }
+  form .oprator {
+    width: 250px;
+  }
+  form .button {
+    width: 260px;
+  }
+  form .angka {
+    width: 250px;
+  }
+  form .total {
+    width: 250px;
+
+  }
+  form .bangun{
+    width: 250px;
+  }
+}
+a{
+  color:aliceblue;
+  text-decoration: none;
+  text-align: center;
+
+}
+a:hover{
+  color: yellow;
+  text-transform: uppercase;
+}
